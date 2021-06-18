@@ -121,4 +121,4 @@ def listar(db):
         enderecos = converte_endereco(cursor.fetchall())
         return enderecos
 
-app.run()
+app.run(host='0.0.0.0')
